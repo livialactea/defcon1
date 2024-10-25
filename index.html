@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <title>DEFCOM1</title>
+    <style>
+        /* Configurações de layout para preencher a tela toda */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .conteudo {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .conteudo-principal {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .conteudo-principal-texto {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .conteudo-principal-imagem {
+            margin-top: 20px;
+            max-width: 100%;
+        }
+
+        /* Estilo básico para o cabeçalho */
+        .cabecalho {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        /* Rodapé posicionado após o conteúdo */
+        .rodape {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .rodape-item {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .divisor {
+            border-left: 1px solid #ccc;
+            height: 50px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="imagens/dfkon.png" alt="Logo Defcom1">
+        <nav class="nav-main">
+            <a class="nav-item" href="#">Sobre a empresa</a>
+        </nav>
+    </header>
+
+    <main class="conteudo"> 
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-texto">
+                <p class="conteudo-titulo">Defcon <strong>1</strong></p>
+                <p class="conteudo-titulo">Soluções <strong>financeiras</strong></p>
+                <p class="conteudo-titulo-secundario">Organize suas despesas, planeje o futuro</p>
+                <p class="conteudo-titulo-secundario">Seu dinheiro, suas regras. Defcom1 te ajuda a manter o controle.</p>
+            </div>
+            <img class="conteudo-principal-imagem" src="imagens/loboPrincipal.png" alt="Imagem Principal">
+        </section>
+        
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-texto">
+                <p class="conteudo-titulo">Sobre a <strong>Defcon1</strong></p>
+                <p class="conteudo-titulo-secundario">A Defcon1 é uma empresa de desenvolvimento de sistemas web focada no controle de finanças pessoais, criada para ajudar indivíduos a gerenciar receitas e despesas de maneira simples e eficiente. A plataforma Defcon1 - Soluções Financeiras permite que os usuários acompanhem seus gastos em uma interface intuitiva.</p>
+                <p class="conteudo-titulo-secundario">A empresa é conduzida integralmente por sua fundadora, Lívia Moreira, que coordena todas as atividades, estruturando projetos e gerenciando os processos internos para assegurar o desenvolvimento contínuo e a qualidade dos serviços oferecidos.</p>
+            </div>
+            <img class="conteudo-principal-imagem" src="imagens/pigpig.png" alt="Imagem sobre a Empresa">
+        </section>
+
+        <!-- Nova seção para Objetivo Geral -->
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-texto">
+                <p class="conteudo-titulo">Objetivo <strong>Geral</strong></p>
+                <p class="conteudo-titulo-secundario">O objetivo principal do sistema é automatizar o controle de despesas pessoais, oferecendo uma plataforma onde o usuário pode registrar, gerenciar e acompanhar suas contas de forma mais eficiente, reduzindo o risco de esquecimentos ou desorganização.</p>
+            </div>
+            <img class="conteudo-principal-imagem" src="imagens/finances.png" alt="Imagem Objetivo Geral">
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-item">
+            <img src="imagens/globe_network_icon_225723.png" alt="Ícone LinkedIn">
+            <p>Linkedin - Livia Moreira <br> Linkedin.com/aivilivia</p>
+        </div>
+        <div class="divisor"></div>
+        <div class="rodape-item">
+            <img src="imagens/site_place_placeholder_map_marker_icon_225717.png" alt="Ícone Localização">
+            <p>UFVJM-JK <br> Sistemas De Informação</p>
+        </div>
+        <div class="divisor"></div>
+        <div class="rodape-item">
+            <img src="imagens/chat_message_messages_conversation_bubbles_icon_225720.png" alt="Ícone Disciplina">
+            <p>Disciplina <br> Engenharia Web I</p>
+        </div>
+    </footer>
+</body>
+</html>
